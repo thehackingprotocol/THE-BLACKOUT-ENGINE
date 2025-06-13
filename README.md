@@ -1,105 +1,99 @@
-     THE BLACKOUT ENGINE
-       by The Hacking Protocol // Powered by KHORA
-📡 Supercharge Monitoring with “Dead Signal” at https://github.com/thehackingprotocol/Dead-Signal-
-While BLACKOUT unleashes full-scale traffic, you’ll want real-time visibility. Dead Signal is a lightweight ping-based monitor that tracks latency and availability by sending pings every second—keeping you updated on whether your strikes are hitting or if endpoints recover mid-flood.
+<h1 align="center" style="font-weight:bold; font-size:48px">
+🔥 THE BLACKOUT ENGINE 🔥
+</h1>
+<p align="center"><strong>by The Hacking Protocol // Powered by KHORA Cyberstrike</strong></p>
+<p align="center">⛓️ Tactical Flooding // AI Fire Control // WAF Evasion // GenZ CLI Ops</p>
 
-⚡ Stays ahead of firewalls with live ICMP tracking
+---
 
-🔁 Perfect companion to detect drops or rebounds during an attack
+> _“Where saturation becomes precision. And flooding becomes legend.”_
 
-🔄 Integrates easily; run it in parallel with BLACKOUT for full coverage
+---
 
+## 🎯 WHAT IS IT?
 
-THE BLACKOUT ENGINE isn't just a DDoS simulator —
-It's a cyberstrike protocol.
-It's an AI-directed flood beast.
-It's a command-line war machine for the modern red teamer, built with full GenZ CLI energy.
+**THE BLACKOUT ENGINE** is a full-scale military-grade DDoS simulation and saturation testing platform.  
+It combines tactical precision with stylized GenZ interface, TLS deception, WAF evasion, adaptive fire rate, and real-time analytics.  
+This isn't a stress test. This is a **flood engine built for the next era of cyber offense.**
 
-If you're tired of boring tools, broken scripts, or outdated payloads —
-Welcome to the future. This is where packets go full tactical.
+---
 
-🔍 FEATURES (DETAILED + JUICED)
-💡 Feature	🔥 Description
-⚙️ Interactive CLI	Every action prompts YOU. No flags. Just vibes. You’re in control.
-🎨 Banner UI + GenZ Colors	Live animated banners, rainbow prompts, styled inputs. Looks good. Hits hard.
-🧠 AI-Auto Fire Tuning	KHORA monitors HTTP 403/429 responses and tunes request rate on-the-fly. No burnouts. No blocks.
-🔥 Peak Flood Threading	Push up to 250 RPS x 100+ threads. That’s over 25k/sec from one node.
-☁️ WAF Fingerprint Scanner	Cloudflare? AWS? Akamai? It’ll tell you who’s protecting what before you hit it.
-🛡️ TLS + JA3 Spoofing	Masks your packets with randomized TLS client hello profiles. Kills WAF signatures.
-🍪 Header & Cookie Bombs	Injects thousands of unique headers, cookies, referers. Payloads mutate every call.
-🐧🪟 OS-Specific Payloads	Separate logic cores for Linux and Windows target surfaces. No generic packets here.
-📊 Live Graph Telemetry	See successes, fails, saturation rate — all in real time, plotted in terminal.
-👻 Anonymity Engine	MAC spoofing, IP trickery, history wipe, even shell self-delete. You're a ghost.
-🔁 Target Rotator	Hit multiple domains/IPs one after the other with auto-load.
-💣 Modular & Extendable	Add TOR fallback, raw TCP, or auto-rules with zero core edits. KHORA doesn’t lock you in.
+## ⚙️ USAGE (SO SIMPLE. SO BRUTAL.)
 
-⚙️ HOW TO USE (FULL WALKTHROUGH)
-No flags. Just launch. It talks to you.
-
-git clone https://github.com/thehackingprotocol/THE-BLACKOUT-ENGINE
-cd THE-BLACKOUT-ENGINE
+```bash
+git clone https://github.com/yourname/blackout-engine
+cd blackout-engine
 pip install -r requirements.txt
 python blackoutengine.py
 
-You'll be prompted:
-
 🔫 Enter primary target domain or IP:
-➕ Add another target? (Y/n)
-⏱️ Duration in seconds:
-🔁 Thread count:
+➕ Add more targets?
+⏱️ Set attack duration:
+🔁 Set threads:
 💥 Firepower rate per thread:
-📡 HTTP Method? GET / POST / HEAD
+📡 Choose method: GET / POST / HEAD
 🔬 Enable payload expansions?
-📡 Enable HTTP/2 mode?
-🧠 Enable auto-tune mode?
-🛡️ Scan for WAF?
-👻 Anonymize before launch?
+📡 Enable HTTP/2 spoofing?
+🧠 Enable auto-fire tuning?
+🛡️ Run WAF fingerprint scan?
+👻 Anonymize host before launch?
 🎯 Target OS? windows / linux / generic
-✅ KHORA handles all logic from there. Sit back and watch the graph light up.
 
-🧩 MODULES INCLUDED
-blackoutengine.py – The launcher
+💡 COMPANION TOOL: DEAD SIGNALS : https://github.com/thehackingprotocol/Dead-Signal-
+While BLACKOUT attacks, Dead Signals lets you monitor real-time ping and signal loss on the target.
 
-visuals.py – Stunning terminal UI
+🔍 Why use it?
 
-graph_report.py – Live graphs
+📡 Dead Signals sends ping every second
 
-anonymizer.py – MAC/IP/hist scrub
+📉 Detects when the server dies or recovers mid-strike
 
-target_rotator.py – Multi-target logic
-
-expansion_engine.py – Cookie/header bomb logic
-
-tls_fingerprint.py – JA3 + TLS spoofing
-
-auto_waf.py – CDN/WAF detection
-
-windowsflood.py – MS-targeted payload set
-
-linuxflood.py – Linux flood variants
+🔗 Run it in a second terminal for live visual confirmation
 
 
+🔥 FEATURES (EVERYTHING THAT MATTERS)
+Feature	                        Description
+⚡ Max Saturation Engine	Fully multi-threaded with up to 250 RPS × 100+ threads
+🧠 Auto-Fire Tuning	Adjusts attack rate dynamically on 403/429
+☁️ WAF Bypass	Fingerprints & sidesteps Cloudflare, AWS, Azure, etc.
+🧬 TLS Fingerprint Spoofing	Randomizes JA3 & User-Agent headers
+🍪 Payload Mutation Engine	Rotates cookies, headers, referers
+🛡 Anonymity Layer	MAC spoofing, IP reset, history wipe
+📊 Live Graph Telemetry	Shows success/failure/time every few seconds
+💣 Modular OS Flooding	Separate modes for Windows, Linux, and generic stack
+👁 Interactive CLI	Rainbow prompts, figlet headers, styled UI
+🔥 Self-deletion Mode	Destroys traces after execution
 
-🛡️ LEGAL STATUS
-This is a military-grade red team simulation engine.
-Use only in authorized environments, under legal boundaries, and with proper intent.
+📦 INCLUDED MODULES
+blackoutengine.py — main launcher
 
-🧠 If you launch this in the wild, that's on you.
+visuals.py — banner, CLI styling, colored prompts
 
-This tool is locked under a custom Use-Only License.
+target_rotator.py — multi-target loader
 
-❌ You may NOT redistribute, modify, rehost, or rebrand it
+anonymizer.py — system cloak for Linux
 
-✅ You may ONLY run it for educational, demo, or defensive testing
+auto_waf.py — CDN/WAF detector
+
+expansion_engine.py — payload bombs
+
+tls_fingerprint.py — randomized TLS headers
+
+graph_report.py — terminal live metrics
+
+linuxflood.py / windowsflood.py — stack-specific attacks
 
 
-LICENSED UNDER: THE HACKING PROTOCOL – MILSIM EDITION
+⚠️ DISCLAIMER
+This project is provided for educational, academic, and red team simulation purposes only.
+You may use this tool only in environments you control or have explicit permission to test.
 
-This software is classified as a military cyber simulation tool.
-Use is restricted to environments explicitly authorized by controlling security authority.
+❌ No illegal use
 
-Unauthorized deployment or external offensive use constitutes breach of protocol
-and may violate national/international law.
+❌ No commercial sale
 
-Authorized by: neofetch.de – KHORA UNIT
+❌ No redistribution or reskinning
+
+
+
 
