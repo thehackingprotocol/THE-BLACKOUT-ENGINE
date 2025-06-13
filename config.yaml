@@ -1,0 +1,3 @@
+default_duration: 60
+default_firepower_class: 3
+default_waf_bypass: true

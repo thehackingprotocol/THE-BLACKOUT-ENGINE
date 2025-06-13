@@ -1,0 +1,9 @@
+LICENSED UNDER: THE HACKING PROTOCOL – MILSIM EDITION
+
+This software is classified as a military cyber simulation tool.
+Use is restricted to environments explicitly authorized by controlling security authority.
+
+Unauthorized deployment or external offensive use constitutes breach of protocol
+and may violate national/international law.
+
+Authorized by: neofetch.de – KHORA UNIT

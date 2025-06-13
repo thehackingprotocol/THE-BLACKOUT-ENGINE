@@ -1,0 +1,8 @@
+requests
+pyfiglet
+termcolor
+scapy
+colorama
+psutil
+netifaces
+macchanger ; sys_platform == 'linux'
