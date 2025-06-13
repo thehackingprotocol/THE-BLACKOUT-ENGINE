@@ -43,11 +43,8 @@ python blackoutengine.py
 While BLACKOUT attacks, Dead Signals lets you monitor real-time ping and signal loss on the target.
 
 🔍 Why use it?
-
 📡 Dead Signals sends ping every second
-
 📉 Detects when the server dies or recovers mid-strike
-
 🔗 Run it in a second terminal for live visual confirmation
 
 
@@ -66,21 +63,13 @@ Feature	                        Description
 
 📦 INCLUDED MODULES
 blackoutengine.py — main launcher
-
 visuals.py — banner, CLI styling, colored prompts
-
 target_rotator.py — multi-target loader
-
 anonymizer.py — system cloak for Linux
-
 auto_waf.py — CDN/WAF detector
-
 expansion_engine.py — payload bombs
-
 tls_fingerprint.py — randomized TLS headers
-
 graph_report.py — terminal live metrics
-
 linuxflood.py / windowsflood.py — stack-specific attacks
 
 
