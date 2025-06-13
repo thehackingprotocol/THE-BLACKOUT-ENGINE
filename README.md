@@ -20,7 +20,20 @@ This isn't a stress test. This is a **flood engine built for the next era of cyb
 
 ## ⚙️ USAGE (SO SIMPLE. SO BRUTAL.)
 
-```bash
+for windows users 
+download as zip
+download python
+add python to path
+then execute following commands:-
+
+pip install -r requirements.txt
+python blackoutengine.py
+
+(for linux users) 
+sudo apt update
+sudo apt install iptables
+sudo apt install macchanger
+sudo apt install python3
 git clone https://github.com/yourname/blackout-engine
 cd blackout-engine
 pip install -r requirements.txt
