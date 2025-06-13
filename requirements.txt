@@ -1,8 +1,8 @@
 requests
 pyfiglet
 termcolor
-scapy
 colorama
+scapy
 psutil
 netifaces
 macchanger ; sys_platform == 'linux'
